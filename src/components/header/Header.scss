@@ -1,0 +1,33 @@
+header {
+    width: 1240px;
+    padding: 14px;
+    background-color: white;
+	nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 24px;
+        .nav-items {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            h1 {
+                color: #212121;
+                font-family: Mulish;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+            }
+            .navigation {
+                font-family: Mulish;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 21px; /* 161.538% */
+            }
+        }
+
+
+    }
+}

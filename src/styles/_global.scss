@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Mulish;
+    src: url(../assets/fonts/Mulish-Regular.ttf);
+}
+
+* {
+    font-family: Mulish;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    a {
+        text-decoration: none;
+    }
+    li {
+        list-style: none;
+    }
+    button {
+        cursor: pointer;
+    }
+    background: #8d8d8d;
+}
+
+.container {
+    width: 00px;
+    height: 500px;
+    margin: 40px;
+    overflow-y: scroll ;
+    background-color: #ffffff;
+}
