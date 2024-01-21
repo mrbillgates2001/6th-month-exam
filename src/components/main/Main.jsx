@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NewProducts from "../../pages/newProducts/NewProducts";
 import NoProducts from "../../pages/noProducts/NoProducts";
 import Products from "../../pages/products/Products";
-import Profile from "../../pages/profile/profile";
+import Profile from "../../pages/profile/Profile";
 import Settings from "../../pages/settings/Settings";
 import NoPage from "../../pages/nopage/NoPage";
 import axios from "axios";
