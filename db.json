@@ -188,6 +188,21 @@
       "brand": "Hemani Tea",
       "category": "skincare",
       "price": 12
+    },
+    {
+      "0": {
+        "title": "",
+        "price": "",
+        "brand": "",
+        "description": "",
+        "category": ""
+      },
+      "id": "104a",
+      "title": "aadsafghjklj",
+      "brand": "dsafghjkhfsdgfdh",
+      "price": "94561232",
+      "category": "Smartphones",
+      "description": "sjkdfglfbgljkdbgskjbisdbv;kadjbv"
     }
   ]
 }

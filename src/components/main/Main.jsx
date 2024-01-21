@@ -20,6 +20,8 @@ const Main = () => {
 		if (userData) {
 			setUser(userData);
 		}
+		<Header/>,
+		<Sidebar/>
 	}, []);
 
 	const fetchProducts = async () => {
@@ -35,14 +37,15 @@ const Main = () => {
 
 	useEffect(() => {
 		fetchProducts();
-	}, []);
+		fetchProducts();
+	}, [user]);
 
 	return (
 		<React.Fragment>
 			<Router>
 				<div className="d-flex gap-lg-4">
 					<div>
-						<Sidebar />
+						{user ? <Sidebar/> : ""}
 					</div>
 					<div>
 						{user ? <Header user={user} /> : ""}
